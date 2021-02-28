@@ -11,14 +11,14 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'articuno',
+            name: 'Articuno',
             location: {
                 lat: 47.4598607,
                 lng: 19.0408957,
             },
         },
         {
-            name: 'dragonite',
+            name: 'Dragonite',
             location: {
                 lat: 47.45985882695041,
                 lng: 19.040909588609306,
