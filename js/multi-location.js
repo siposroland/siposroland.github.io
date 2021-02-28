@@ -11,17 +11,24 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
+            name: 'Magnemite',
+            location: {
+                lat: 47.4598005,
+                lng: 19.0407451,
+            },
+        },
+        {
             name: 'Articuno',
             location: {
-                lat: 47.4598607,
-                lng: 19.0408957,
+                lat: 47.4598005,
+                lng: 19.0407451,
             },
         },
         {
             name: 'Dragonite',
             location: {
-                lat: 47.45985882695041,
-                lng: 19.040909588609306,
+                lat: 47.4598005,
+                lng: 19.0407451,
             },
         },
     ];
