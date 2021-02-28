@@ -14,11 +14,9 @@
       embedded
       arjs="sourceType: webcam; debugUIEnabled: false;"
     >
-      <a-text
-        value="Smart City lab - Augmented Reality."
+      <a-sphere
         look-at="[gps-camera]"
-        gps-entity-place="latitude: 47.4598005; longitude: 19.0407451;"
-        position="-0.5 0.5 -3">
+        gps-entity-place="latitude: 47.4598005; longitude: 19.0407451;" radius=2 color=green>
       ></a-text>
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
